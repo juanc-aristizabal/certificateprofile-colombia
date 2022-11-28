@@ -1,7 +1,17 @@
-# certificateprofile-colombia
+# certificateprofile-Colombia
 
 ## Modificar y Compilar X-Road
-Antes de iniciar asegúrese de descargar el código fuente de X-Road dentro de la carpeta 'X-Road'.  
+Antes de iniciar asegúrese de descargar el código fuente de X-Road dentro de la carpeta 'X-Road' y guardar esta carpeta "certificateprofile-colombia" en X-Road
+```
+ X-Road/certificateprofile-colombia/
+```
+
+## Insertar certificados
+Por medio del bash realizamos el despliege de los archivos al codigo fuente
+```
+chmod 777 ./insert_class.sh
+./insert_class.sh  
+```
 
 ### Agregar Proveedor de Certificación  
 La plataforma necesita conocer los campos que utilizan los certificados de su Autoridad Certificadora, para esto es necesario crear cuatro classes en Java:
@@ -29,8 +39,7 @@ Para compilar el código fuente debe seguir las instrucciones del proyecto X-Roa
 
 Una vez terminada la compilación los paquetes de instalación estarán disponibles en las siguientes rutas: 
 ```
-Paquetes en X-Road/src/packets/ 
-
+Paquetes en X-Road/src/packages/build
 ```
 
 
