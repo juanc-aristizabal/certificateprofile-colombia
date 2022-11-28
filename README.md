@@ -1,7 +1,7 @@
 # certificateprofile-Colombia
 
 ## Modificar y Compilar X-Road
-Antes de iniciar asegúrese de descargar el código fuente de X-Road dentro de la carpeta 'X-Road' y guardar esta carpeta "certificateprofile-colombia" en X-Road
+Antes de iniciar asegúrese de descargar el código fuente de X-Road dentro de la carpeta 'X-Road' y guardar la presente carpeta "certificateprofile-colombia" en X-Road
 ```
  X-Road/certificateprofile-colombia/
 ```
@@ -13,7 +13,7 @@ chmod 777 ./insert_class.sh
 ./insert_class.sh  
 ```
 
-### Agregar Proveedor de Certificación  
+### Clases para Proveedor de Certificación
 La plataforma necesita conocer los campos que utilizan los certificados de su Autoridad Certificadora, para esto es necesario crear cuatro classes en Java:
 
 * 1- SubjectClientIdDecoder:  Describe los campos incluidos en el Sujeto de los certificados, Ejemplo COLSubjectClientIdDecoder.java. Este Archivo debe incluirse en la carpeta
